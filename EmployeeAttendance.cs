@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -17,12 +17,17 @@ namespace EmployeeWageproblem
             int empWage = 0;
            
             Random random = new Random();
-            int empCheck = random.Next(2);
+            int empCheck = random.Next(3);
 
             if(empCheck == IS_FULL_TIME)
             {
                 Console.WriteLine("Employee is present");
                 empHrs = 8;
+            }
+           else if (empCheck == 2)
+            {
+                Console.WriteLine("Employee is parttime");
+                empHrs = 4;
             }
             else
             {
