@@ -21,7 +21,7 @@ namespace EmployeeWageproblem
             Random random = new Random();
             int empCheck = random.Next(3);
 
-            switch(empCheck)
+           /* switch(empCheck)
             {
                 case IS_FULL_TIME:
                     empHrs = 8;
@@ -31,25 +31,25 @@ namespace EmployeeWageproblem
                     break;
                     default: 
                     empHrs = 0;
-                    break;
+                   break;
             }
+*/
 
-
-          //  if(empCheck == IS_FULL_TIME)
-            //{
-             //   Console.WriteLine("Employee is present");
-                //empHrs = 8;
-           // }
-           //else if (empCheck == 2)
-           // {
-              //  Console.WriteLine("Employee is parttime");
-              //  empHrs = 4;
-          //  }
-           // else
-            //{
-              //  Console.WriteLine("Employee is absent");
-                //empWage = 0;
-           // }
+            if(empCheck == IS_FULL_TIME)
+            {
+               Console.WriteLine("Employee is present");
+                empHrs = 8;
+            }
+           else if (empCheck == 2)
+           {
+                Console.WriteLine("Employee is parttime");
+                empHrs = 4;
+            }
+           else
+            {
+               Console.WriteLine("Employee is absent");
+                empWage = 0;
+            }
             empWage = empHrs * EMP_RATE_PER_HOUR;
             Console.WriteLine("Emp Wage :" + empWage);
 
