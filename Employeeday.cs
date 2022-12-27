@@ -13,7 +13,7 @@ namespace EmployeeWageproblem
             const int IS_FULL_TIME = 1;
             const int IS_PART_TIME = 2;
             int EMP_RATE_PER_HOUR = 20;
-            const int NUM_OF_WORKING_DAYS = 3;
+            const int NUM_OF_WORKING_DAYS = 20;
 
             int empHrs = 0;
             int empWage = 0;
