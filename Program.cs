@@ -5,7 +5,8 @@
     public static void Main(string[] args)
         {
             Console.WriteLine("Welcome to employeewage computation program");
-         EmployeeAttendance.CheckAttendance();
+         EmployeeAttendance Emp=new EmployeeAttendance();
+        Emp.CheckAttendance();
         }
     }
 
