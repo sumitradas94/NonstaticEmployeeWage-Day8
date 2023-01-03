@@ -6,7 +6,8 @@
         {
             Console.WriteLine("Welcome to employeewage computation program");
                         EmployeeAttendance.CheckAttendance();
-
+             EmployeeAttendance Employee=new EmployeeAttendance();
+             Employee.CheckAttendance();
         }
     }
 
