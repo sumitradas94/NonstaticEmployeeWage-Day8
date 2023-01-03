@@ -8,7 +8,7 @@ namespace EmployeeWageproblem
 {
     public class EmployeeAttendance
     {
-        public static void CheckAttendance()
+        public  void CheckAttendance()
         {
             int IS_FULL_TIME = 1;
             int EMP_RATE_PER_HOUR = 20;
