@@ -8,7 +8,7 @@ namespace EmployeeWageproblem
 {
     public class Employeeday
     {
-        public static void daywage()
+        public  void daywage()
         {
             const int IS_FULL_TIME = 1;
             const int IS_PART_TIME = 2;
