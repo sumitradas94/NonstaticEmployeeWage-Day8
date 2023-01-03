@@ -5,8 +5,8 @@ namespace EmployeeWageproblem
     public static void Main(string[] args)
         {
             Console.WriteLine("Welcome to employeewage computation program");
-            //EmployeeAttendance.CheckAttendance();
-            Employeeday.daywage();
+           Employeeday day=new Employeeday();
+            day.daywage();
         }
     }
 
